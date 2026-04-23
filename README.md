@@ -4,6 +4,17 @@ This App demonstrates how to use the `expo-video` asset transport provider API i
 
 It registers a `VideoAssetTransportProvider` at module startup and uses it to translate a narrow subset of SegmentBase DASH sources into HLS so they can be played by `expo-video` on iOS.
 
+## How to run
+In the repo root run:
+```bash
+pnpm install
+```
+
+
+```bash
+npx expo run:ios
+```
+
 ## What this app demonstrates
 
 - how a separate Expo module can register a native `expo-video` transport provider
